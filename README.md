@@ -24,3 +24,9 @@ Features include:
 - Matplotlib
 - Git
 - GitHub
+
+## Visualization
+
+Average engagement by platform:
+
+![Engagement Chart](visuals/engagement_by_platform.png)
