@@ -18,6 +18,22 @@ plt.ylabel("Average Engagement")
 plt.xlabel("Platform")
 
 plt.tight_layout()
+
 plt.savefig("visuals/engagement_by_platform.png")
+
+plt.show()
+
+# Average engagement by post type
+post_type_engagement = df.groupby("post_type")["engagement"].mean()
+
+post_type_engagement.plot(kind="bar")
+
+plt.title("Average Engagement by Post Type")
+plt.ylabel("Average Engagement")
+plt.xlabel("Post Type")
+
+plt.tight_layout()
+
+plt.savefig("visuals/engagement_by_post_type.png")
 
 plt.show()
