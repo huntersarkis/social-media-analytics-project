@@ -17,6 +17,7 @@ plt.title("Average Engagement by Platform")
 plt.ylabel("Average Engagement")
 plt.xlabel("Platform")
 
+plt.tight_layout()
 plt.savefig("visuals/engagement_by_platform.png")
 
 plt.show()
