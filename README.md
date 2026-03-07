@@ -111,5 +111,6 @@ Potential improvements to this project include:
 ## Author
 
 Hunter Sarkis
-Master’s Student – Data Analytics
+Master’s Student – Business Analytics
 Grand Canyon University
+
