@@ -1,32 +1,36 @@
 # Social Media Engagement Analysis
 
-This project analyzes social media engagement across platforms using Python.
+## Project Overview
+
+This project analyzes social media engagement across multiple platforms using Python. The goal is to understand which platforms and content types generate the highest engagement. Engagement is calculated using a simple metric based on user interactions with posts.
+
+The analysis explores patterns in social media performance and demonstrates common data analytics tasks such as data loading, feature engineering, aggregation, and visualization.
 
 ## Dataset
-The dataset includes 100 social media posts across Facebook, Instagram, and Twitter.
 
-Features include:
-- platform
-- post type
-- likes
-- comments
-- shares
-- sentiment score
+The dataset contains 100 social media posts collected across three platforms:
 
-## Analysis Performed
-- Created engagement metric (likes + comments + shares)
-- Calculated average engagement by platform
-- Visualized engagement using a bar chart
+* Facebook
+* Instagram
+* Twitter
 
-## Tools Used
-- Python
-- Pandas
-- Matplotlib
-- Git
-- GitHub
+Each record includes information such as:
 
-## Visualization
+* Platform
+* Post Type
+* Post Time
+* Post Day
+* Likes
+* Comments
+* Shares
+* Sentiment Score
 
-Average engagement by platform:
+These variables allow us to evaluate how engagement varies across platforms and content types.
 
-![Engagement Chart](visuals/engagement_by_platform.png)
+## Engagement Metric
+
+To measure engagement, a new feature was created:
+
+Engagement = Likes + Comments + Shares
+
+This metric provid
