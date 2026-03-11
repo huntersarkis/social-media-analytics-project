@@ -108,9 +108,4 @@ Potential improvements to this project include:
 * Building an interactive dashboard
 * Connecting to social media APIs for live data
 
-## Author
-
-Hunter Sarkis
-Master’s Student – Business Analytics
-Grand Canyon University
 
